@@ -1,0 +1,50 @@
+/* Gruvbox Material Theme by:- https://github.com/sainnhe/gruvbox-material */
+/* font by:- https://github.com/dtinth/comic-mono-font */
+
+body {
+  background-color: #1d2021;
+  color: #a89984;
+  font-family: ComicMonoNF;
+}
+
+.terminal {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #282828;
+  border: 1px solid #a89984;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: ComicMonoNF;
+}
+
+.output pre {
+  margin: 0;
+  padding: 5px;
+  background-color: #282828;
+  font-family: ComicMonoNF;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+  font-family: ComicMonoNF;
+}
+
+.prompt {
+  color: #e78a4e;
+  margin-right: 5px;
+  background-color: #282828;
+  font-family: ComicMonoNF;
+}
+
+input[type="text"] {
+  /* background-color: transparent; */
+  background-color: #282828;
+  border: none;
+  color: #a9b665;
+  font-family: ComicMonoNF;
+  font-size: inherit;
+  width: 100%;
+  outline: none;
+}

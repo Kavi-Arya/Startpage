@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Terminal Homepage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <div class="output">
+      <pre>Type "help" for a list of commands.</pre>
+    </div>
+    <div class="input">
+      <!-- Had to add an empty char(&nbsp;), cuz for some fucking reason spaces fucks it up-->
+      <span class="prompt">[kvl@surf&nbsp;~]$</span>
+      <input type="text" id="commandInput" autofocus>
+    </div>
+  </div>
+  <!-- you can comment this div off if you dont want my name on the page -->
+  <div class="footer">
+    Made by: - Kavi<br>
+    <a href="https://github.com/Kavi-Arya">My GitHub</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
