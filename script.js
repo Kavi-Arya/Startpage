@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             du: "https://www.du.ac.in",
             stlogin: "https://aryabhattacollege.in/Internet/Index.aspx",
             aryabhatta: "https://aryabhattacollege.ac.in",
-            chatgpt:"chat.openai.com/",
+            chatgpt:"https://chat.openai.com/",
             chess: "https://www.chess.com",
           };
 
