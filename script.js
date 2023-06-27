@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   let historyIndex = 0;
   let shortcuts = []; // Array to store the loaded shortcuts
 
+  
+console.log("Loaded shortcuts:", shortcuts);
+
   // History
   commandInput.addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
@@ -152,11 +155,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
           <pre> stlogin</pre>
           <pre> aryabhatta</pre>
           <pre> chatgpt</pre>
+          <pre> classroom</pre>
           <pre> chess</pre>
           `;
         } else {
           output.innerHTML += `
-          <pre><i class="icon nf-folder"></i> google calender searx youtube twitter gmail netflix whatsapp reddit github amazon hotstar prime du stlogin aryabhatta chatgpt chess</pre>
+          <pre><i class="icon nf-folder"></i> google calender searx youtube twitter gmail netflix whatsapp reddit github amazon hotstar prime du stlogin aryabhatta chatgpt classroom chess</pre>
           `;
         }
         break;
@@ -182,6 +186,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             stlogin: "https://aryabhattacollege.in/Internet/Index.aspx",
             aryabhatta: "https://aryabhattacollege.ac.in",
             chatgpt:"https://chat.openai.com/",
+            classroom:"https://classroom.google.com/",
             chess: "https://www.chess.com",
           };
 
